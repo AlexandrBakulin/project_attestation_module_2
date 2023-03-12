@@ -1,0 +1,9 @@
+#New repo Project
+
+My project repository
+
+git init
+
+git add . - весь каталог
+git commit -m - закоммитил правки
+git branch -M Main - сменил ветку на Мейн
