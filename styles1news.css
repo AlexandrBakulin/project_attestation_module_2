@@ -31,10 +31,13 @@ header {
     margin-top: -140px;
 }
 ul {
+    min-height: 119px;
+    max-height: 119px;
     max-width: 100%;
-    min-width: 400px;
+    min-width: 100%;
     position: relative;
     left: -250px;
+    background-color: blueviolet;
 }
 li{
     display: inline;

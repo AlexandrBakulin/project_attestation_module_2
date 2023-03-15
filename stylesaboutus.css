@@ -12,7 +12,7 @@ header {
     max-height: 200px;
     min-width: 100%;
     max-width: 100%;
-    position: absolute;
+    position: relative;
     background-color: blueviolet;
 }
 .logo {
@@ -68,9 +68,17 @@ a:hover {
 span {
     color: #3a5cd7;
 }
+.for-link-back {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 45%;
+
+}
 .back {
     color: black;
     border-radius: 5px;
     font-size: 30px;
     font-weight: bold;
+    position: relative;
 }
