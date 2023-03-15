@@ -31,6 +31,8 @@ header {
 ul {
     max-width: 100%;
     min-width: 400px;
+    position: absolute;
+    left: -250px;
 }
 li{
     display: inline;
@@ -62,10 +64,6 @@ a:hover {
     font-weight: bold;
     text-align: left;
 }
-.linkwithme {
-    color: black;
-
-}
-.linkwithme:hover {
-    background-color: red;
+span {
+    color: #3a5cd7;
 }
