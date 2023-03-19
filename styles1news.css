@@ -15,6 +15,7 @@ header {
     max-width: 100%;
     position: absolute;
     background-color: blueviolet;
+
 }
 .logo {
     margin: 25px;
@@ -31,19 +32,36 @@ header {
     margin-top: -140px;
 }
 ul {
-    min-height: 119px;
-    max-height: 119px;
+    position: relative;
+    min-height: 200px;
+    max-height: 200px;
     max-width: 100%;
     min-width: 100%;
-    position: relative;
-    left: -250px;
-    background-color: blueviolet;
+    left: -20%;
+
 }
 li{
     display: inline;
-    margin: 50px;
-    justify-content: space-between;
+    margin: 40px;
     font-size: 24px;
+}
+
+@media (max-width: 800px) {
+    .MainPage {
+        position: absolute;
+        left: -5%;
+        top: -15%;
+    }
+    .About {
+        position: absolute;
+        left: -5%;
+        top: 15%;
+    }
+    .content {
+        position: absolute;
+        left: -15%;
+        top: 0;
+    }
 }
 a {
     text-decoration: none;

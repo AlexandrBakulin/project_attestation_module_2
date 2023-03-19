@@ -12,8 +12,9 @@ header {
     max-height: 200px;
     min-width: 100%;
     max-width: 100%;
-    position: relative;
+    position: absolute;
     background-color: blueviolet;
+
 }
 .logo {
     margin: 25px;
@@ -30,18 +31,36 @@ header {
     margin-top: -140px;
 }
 ul {
-    max-width: 100%;
-    min-width: 400px;
     position: relative;
-    left: -250px;
+    min-height: 200px;
+    max-height: 200px;
+    max-width: 100%;
+    min-width: 100%;
+    left: -20%;
+
 }
 li{
     display: inline;
-    margin: 50px;
-    justify-content: space-between;
+    margin: 40px;
     font-size: 24px;
 }
-
+@media (max-width: 1600px) {
+    .MainPage {
+        position: absolute;
+        left: -2%;
+        top: -15%;
+    }
+    .About {
+        position: absolute;
+        left: -2%;
+        top: 15%;
+    }
+    .content {
+        position: absolute;
+        left: 0;
+        top:40%;
+    }
+}
 a {
     text-decoration: none;
     text-align: center;
@@ -54,6 +73,8 @@ a:hover {
     background-color: orange;
 }
 .content {
+    position: absolute;
+    margin-top: 10%;
     max-width: 80%;
     max-height: 100%;
 }
@@ -72,7 +93,7 @@ span {
     width: 100px;
     height: 100px;
     position: absolute;
-    left: 45%;
+    left: 55%;
 
 }
 .back {
