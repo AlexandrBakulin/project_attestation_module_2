@@ -61,7 +61,7 @@ li{
     .content {
         position: absolute;
         left: -15%;
-        top: 30%;
+        top: 0;
     }
 }
 a {

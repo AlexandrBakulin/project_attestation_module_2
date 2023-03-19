@@ -1,0 +1,28 @@
+.content {
+    padding-bottom: 50px;
+}
+.content-image {
+    width: 60%;
+    height: 30%;
+    margin-left: 30%;
+    margin-top: 50px;
+}
+.content-text {
+    width: 60%;
+    text-align: center;
+    margin-left: 30%;
+}
+p {
+    font-size: 24px;
+
+}
+blockquote {
+    font-size: 26px;
+    font-weight: bold;
+}
+.back {
+    color: black;
+    border-radius: 5px;
+    font-size: 30px;
+    font-weight: bold;
+}
